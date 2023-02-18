@@ -1,0 +1,61 @@
+.section-estagio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.titulo-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: #b91c1c;
+}
+
+.titulo-emprego {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+/* lista estagios */
+
+.lista-estagio {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background: #f3f4f6;
+  padding: 40px;
+}
+
+.lista-estagio li {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titulo-estagio {
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.paragrafo-estagio{
+  color: #353436;
+  font-weight: lighter;
+}
+
+.link-estagio {
+  color: #b91c1c;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+@media (max-width: 800px){
+
+  .titulo-emprego{
+    padding: 40px;
+    font-size: 1.8rem;
+  }
+
+  .section-estagio {
+    grid-template-columns: 1fr;
+  }
+}

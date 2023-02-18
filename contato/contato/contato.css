@@ -1,0 +1,125 @@
+.contato {
+  padding: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 70px;
+}
+
+.cadastro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cadastro input {
+  border: 1px solid transparent;
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  background: #f3f4f6;
+  padding: 15px;
+}
+
+.cadastro select {
+  cursor: pointer;
+  padding: 15px;
+  outline: none;
+  background: #f3f4f6;
+  font-size: 1rem;
+}
+
+textarea {
+  width: 100%;
+  outline: none;
+  resize: none;
+  padding: 10px;
+}
+
+textarea:focus,
+.cadastro input:focus {
+  border: 1px solid #cccc;
+}
+
+.botoes button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.botoes button:nth-child(1) {
+  color: #ffffff;
+  background: #b91c1c;
+}
+
+.botoes button:nth-child(2) {
+  background: #f3f4f6;
+  color: #353436;
+}
+
+.lista-departamento {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.titulo-departamento {
+  font-size: 2rem;
+}
+
+.lista-departamento li {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.lista-departamento li:nth-child(even) {
+  background: #f3f4f6;
+}
+
+.lista-departamento li h4 {
+  text-transform: uppercase;
+  color: #b91c1c;
+}
+
+.lista-departamento li span {
+  color: #353436;
+}
+@media (max-width: 800px) {
+  .contato {
+    padding: 0;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+  
+  .cadastro input,
+  .cadastro textarea,
+  .cadastro select {
+    width: 100%;
+  }
+
+  .lista-departamento {
+    padding: 0;
+  }
+
+  .titulo-departamento {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .lista-departamento li h4 {
+    text-transform: uppercase;
+    color: #b91c1c;
+    font-size: .75rem;
+  }
+
+  .lista-departamento li span {
+    font-size: .75rem;
+  }
+}

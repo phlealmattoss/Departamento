@@ -1,0 +1,19 @@
+@import "global/global.css";
+@import "global/header.css";
+@import "main/main.css";
+@import "introducao/introducao.css";
+@import "cursos/cursos.css";
+@import "estagio/estagio.css";
+@import "global/noticias.css";
+@import "global/footer.css";
+
+/* pagina noticias */
+
+@import "/pagina-noticias/compartilhar/compartilhar.css";
+@import "/pagina-noticias/noticias/noticias.css";
+
+/* pagina curso */
+@import "/cursos/section-curso/section-curso.css";
+
+/* pagina contato */
+@import "/contato/contato/contato.css"

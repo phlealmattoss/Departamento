@@ -1,0 +1,41 @@
+
+.section-cursos {
+  margin-bottom: 60px;
+}
+
+.titulo-section {
+  text-align: center;
+}
+
+.lista-cursos {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.lista-cursos li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  font-size: 1rem;
+  background: #f3f4f6;
+  padding: 40px;
+}
+
+.imagem-curso {
+  width: 50%;
+}
+
+.descricao-curso {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px){
+  .lista-cursos {
+    grid-template-columns: 1fr;
+  }
+}
